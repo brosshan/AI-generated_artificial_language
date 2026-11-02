@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+*.tmp
+*.log
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+*.cert
+*.p12
+
+# Project Workspace & User Uploaded Presentations / Rendered Media (CRITICAL)
+workspace/
+*.pdf
+*.pptx
+*.ppt
+*.mp4
+*.mp3
+*.wav
+
+# AI Model Weights & Local Models (CRITICAL: > 1GB safetensors weights)
+asset/
+*.safetensors
+*.bin
+
+# Internal / Development Telemetry Reports
+.herdr-reports/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# LibreOffice runtime temporary user profiles
+libreoffice-profile/
+
+# Distribution / Packaging Output
+dist/
+build/
+*.egg-info/

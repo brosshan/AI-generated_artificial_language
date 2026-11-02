@@ -1,0 +1,10 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+python-multipart>=0.0.9
+PyMuPDF>=1.24
+httpx>=0.27
+numpy>=1.26
+pytest>=8
+edge-tts>=7
+chattts==0.2.5
+mpmath==1.3.0

@@ -1,0 +1,5 @@
+# ChatTTS installs PyTorch and other large platform-specific dependencies.
+# Follow the current ChatTTS installation instructions for your OS/GPU:
+# https://github.com/2noise/ChatTTS
+git+https://github.com/2noise/ChatTTS.git@77b89ee281cd479f5b1a787ada330dc975ca1f2a
+requests
